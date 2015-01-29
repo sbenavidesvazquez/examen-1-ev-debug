@@ -8,8 +8,8 @@ public class ExamenCOD {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
- int Num = 11;
-            	if (metodoMio(Num))
+ int iN = 11;
+            	if (metodoMio(iN))
 System.out.println("Es numero primo");
 else
  System.out.println("NO es numero primo");           	 
@@ -20,12 +20,12 @@ System.out.print(x + " ");
 }         	 
 	}
 public static boolean metodoMio(int variable){
-int pt = 2;
+int j = 2;
 boolean aux=true;
-while ((aux) && (pt!=variable)){
-if (variable % pt == 0)
+while ((aux) && (j!=variable)){
+if (variable % j == 0)
 aux = false;
-pt++;
+j++;
 }
 return aux;
   } 	 
