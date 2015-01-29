@@ -21,13 +21,13 @@ System.out.print(x + " ");
 	}
 public static boolean metodoMio(int variable){
 int j = 2;
-boolean rex=true;
-while ((rex) && (j!=variable)){
+boolean aux=true;
+while ((aux) && (j!=variable)){
 if (variable % j == 0)
-rex = false;
+aux = false;
 j++;
 }
-return rex;
+return aux;
   } 	 
     
 }
